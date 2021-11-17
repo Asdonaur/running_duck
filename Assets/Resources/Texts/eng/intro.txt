@@ -1,0 +1,7 @@
+Game Over!
+Game Over
+Game Over...
+Are you still playing?
+You have already seen everything from this game!
+I swear, nothing will happen if you get a score higher than 9999!
+........
