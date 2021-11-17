@@ -19,3 +19,5 @@ Music: *"And The Journey Begins"*, by **Marllon Silva (xDeviruchi)**.
 ## What can't you do with this code?
 - You can't reupload the files in this repository or the game itself and claim them as yours.
 - You can't sell anything from this repository.
+
+Thanks for reading!
