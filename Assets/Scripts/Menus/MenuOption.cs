@@ -23,11 +23,17 @@ public class MenuOption : MonoBehaviour
         Color defColor = tmp.color,
             transColor = new Color(0, 0, 0, 0);
 
-        for (int i = 0; i < 6; i++)
+        defColor.a = 1;
+
+        for (int i = 0; i < 5; i++)
         {
             tmp.color = (tmp.color == defColor) ? transColor : defColor;
             yield return new WaitForSecondsRealtime(0.05f);
         }
-        tmp.color = defColor;
+
+        for (int i = 0; i < 5; i++)
+        {
+            tmp.color = defColor;
+        }
     }
 }

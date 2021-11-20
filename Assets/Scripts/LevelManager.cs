@@ -239,7 +239,7 @@ public class LevelManager : MonoBehaviour
                 }
             }
             int numFactor = (numSpawnedObs > 100) ? 100 : numSpawnedObs;
-            float add = Mathf.Abs(Random.Range(1.05f, 1.95f) - (numFactor * 0.02f));
+            float add = Mathf.Abs(Random.Range(1.05f, 2.15f) - (numFactor * 0.02f));
             add = (add < 0) ? 0 : add;
             float wait = 0.5f + add;
 

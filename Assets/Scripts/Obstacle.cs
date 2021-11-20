@@ -69,6 +69,13 @@ public class Obstacle : MonoBehaviour
                 collid.enabled = false;
             }
         }
+
+        // THIS CODE DESTROYS THE OBJECT IF THE PLAYER LOST AND IS NOT VISIBLE
+
+        if ((!sprRen.isVisible) && (LevelManager.scr.state == GameState.lost))
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void vSortOrder(int num)

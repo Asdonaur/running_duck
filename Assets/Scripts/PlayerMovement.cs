@@ -53,8 +53,7 @@ public class PlayerMovement : MonoBehaviour
                 {
                     vJump();
                 }
-
-                if (Input.GetButton("Down"))
+                else if (Input.GetButton("Down"))
                 {
                     vCrouch();
                 }
