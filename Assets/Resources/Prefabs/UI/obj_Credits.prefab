@@ -269,7 +269,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\xA9 Asdonaur 2021 - V1.1"
+  m_text: "\xA9 Asdonaur 2021 - V1.2"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e5ca7885cb72ce24ebe3fbe85f0448bf, type: 2}
   m_sharedMaterial: {fileID: 1490242450151322146, guid: e5ca7885cb72ce24ebe3fbe85f0448bf, type: 2}

@@ -20,6 +20,11 @@ public class GameManager : MonoBehaviour
     public int iIntroQ = 0, iIntroQMax = 0;
     public bool blMusicPlaying = false;
 
+    public bool MouseButtonDown()
+    {
+        return Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1) || Input.GetMouseButtonDown(2);
+    }
+
     // Start is called before the first frame update
     void Start()
     {

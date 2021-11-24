@@ -100,7 +100,7 @@ public class LevelManager : MonoBehaviour
             case GameState.lost:
                 if (blCanRestart)
                 {
-                    if (Input.GetKeyDown(KeyCode.Escape))
+                    if ((Input.GetKeyDown(KeyCode.Escape)) || (GameManager.scr.MouseButtonDown()))
                     {
                         // Nothing...
                     }

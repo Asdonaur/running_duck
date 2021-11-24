@@ -35,7 +35,7 @@ public class MenuGroup : MonoBehaviour
         {
             vMoveCursor(true);
         }
-        else if (Input.GetKeyDown(KeyCode.Escape))
+        else if ((Input.GetKeyDown(KeyCode.Escape)) || (GameManager.scr.MouseButtonDown()))
         {
             // Nothing happens, but this "else if" is to assure the button
             // detected in the next "else if" is not Escape, since it's the

@@ -13,6 +13,9 @@ public class Obstacle : MonoBehaviour
     // Start is called before the first frame update
     IEnumerator Start()
     {
+        if (LevelManager.scr.state == GameState.lost)
+            Destroy(gameObject);
+
         collid = GetComponent<Collider>();
         sprRen = GetComponentInChildren<SpriteRenderer>();
 
@@ -68,13 +71,6 @@ public class Obstacle : MonoBehaviour
             {
                 collid.enabled = false;
             }
-        }
-
-        // THIS CODE DESTROYS THE OBJECT IF THE PLAYER LOST AND IS NOT VISIBLE
-
-        if ((!sprRen.isVisible) && (LevelManager.scr.state == GameState.lost))
-        {
-            Destroy(gameObject);
         }
     }
 
